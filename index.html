@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link  
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+  </head>
+  <body>
+    <header id="header">
+      <nav id="nav-bar">
+        <div class="logo-container">
+            <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTp5AgpFORv8FRclOHAR-5eXzafKqjmLzxIUg&usqp=CAU"
+                alt="logo"
+                id="header-img" 
+            />
+            <span class="the-product">Book Scrambler</span>
+        </div>    
+        <ul class="nav-links">
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#how-it-works">How it Works</a></li>
+            <li><a class="nav-link" href="#randomize-your-next-book">Randomize Your Next Book</a></li>
+        </ul>       
+      </nav>
+    </header>
+    <section id="email-section">
+      <h2>Randomized Books On Demand</h2>
+      <form action="https://www.freecodecamp.com/email-submit" id="form">
+        <input 
+        type="email" 
+        name="email" id="email" 
+        placeholder="Enter your email address" 
+        required 
+        />
+        <input type="submit" value="Get Started" id="submit" />
+      </form>
+    </section>
+    <section id="features">
+        <div class="feature">
+            <i class="ri-menu-search-line ri-4x icon"></i>
+            <div>
+                <h2>Search Our Expansive Library</h2>
+                <p>Search through our list of book genres, choose one, and have our program randomly choose a book for you. </p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-user-shared-fill ri-4x icon"></i>
+            <div>
+                <h2>Connect With Your Friends and/ or Book Club</h2>
+                <p>Share what you're reading with your friends and/ or your book club so you can read together.</p>
+            </div>
+        </div>
+        <div class="feature">
+            <i class="ri-checkbox-line ri-4x icon"></i>
+            <div>
+                <h2>Check the Book Off Your List</h2>
+                <p>Mark your books as "read" when you're finished with them. Next time, this book won't show up during you're random search. </p>
+            </div>
+        </div>
+    </section>
+    <section id="how-it-works">
+        <iframe 
+        id="video"
+        src="https://ai.invideo.io/watch/D-wYAxaiBGL"
+        title="invideoAI"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+        ></iframe>
+    </section>
+    <section id="randomize-your-next-book">
+        <h2>Randomize Your Next Book</h2>
+        <div class="product-cards">
+            <div class="card">
+                <div class="product-image product1"></div>
+                <div class="inner-card">
+                    <div class="author">Alexandre Dumas</div>
+                    <h1 class="header">The Count of Monte Cristo</h1>
+                    <p class="content">The Count of Monte Cristo is the story of betrayal, love, and redemption. 
+                        The story follows Edmund Dantes through imprisonment, freedom, and revenge spanning nearly his entire life. 
+                        After meeting Abbe Faria, the priest, while imprisoned, 
+                        Dantes learns the location of the treasure of Monte Cristo.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product2"></div>
+                <div class="inner-card">
+                    <div class="author">Jordan B. Peterson</div>
+                    <h1 class="header">12 Rules For Life: An Antidote to Chaos</h1>
+                    <p class="content">12 Rules for Life by Jordan B. Peterson is a self-help book that provides 
+                        a set of simple yet profound rules to live by, drawing on psychology, philosophy, and mythology. 
+                        It offers practical guidance on how to deal with chaos and find meaning in life.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="product-image product3"></div>
+                <div class="inner-card">
+                    <div class="author">H.D. Carlton</div> 
+                    <h1 class="header">Hunting Adeline</h1>
+                    <p class="content">Hunting Adeline follows Adeline Reilly, a young author who has recently 
+                        moved into her family's home in Washington state following the death of her grandmother. 
+                        She is stalked by Zade Meadows, the leader of an underground organization, Z, 
+                        which aims to end human trafficking.</p>
+                </div>
+            </div>
+        </div>
+  </body>
+</html>
